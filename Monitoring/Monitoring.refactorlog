@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="3aa1b279-9fe3-4862-a935-1584ce5bdc48" ChangeDateTime="02/10/2015 05:21:18">
+    <Property Name="ElementName" Value="[data].[FileLatency].[DataSaved]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[data].[FileLatency]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SavedDate" />
+  </Operation>
+</Operations>

@@ -2,6 +2,7 @@
     [ServerId]   INT            IDENTITY (1, 1) NOT NULL,
     [ServerName] NVARCHAR (128) NULL,
     [ConnString] NVARCHAR (250) NULL
+	CONSTRAINT [PK_MonitoredServer] PRIMARY KEY CLUSTERED (	[ServerId] ASC)
 );
 
 
